@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "arithmic-ai-agent"
+version = "0.1.0"
+description = ""
+authors = ["arithmic3 <arithmic3@arithmic.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+uagents = "^0.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
